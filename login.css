@@ -1,0 +1,134 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    background-image: url('./images/973389.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox-container input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 20px; /* Add margin to create space below the heading */
+  }
+  
+  form {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    margin-top: 20px; /* Add margin to create space above the form */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ffffff;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4500; /* Bright orange to match the fiery theme */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 5px #000000;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff6347; /* Slightly lighter shade on hover */
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 36px;
+    }
+  
+    form {
+      width: 80%;
+      padding: 15px;
+    }
+  
+    button {
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 28px;
+    }
+  
+    form {
+      width: 90%;
+      padding: 10px;
+    }
+  
+    button {
+      padding: 6px;
+    }
+  }
+  .password-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .password-container input {
+    padding-right: 30px; /* Adjust padding to make space for the button */
+  }
+  
+  .password-container button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  .alert{
+    background-color: #ffdb9b;
+    padding :20px 40px;
+    min-width: 420px;
+    position:  absolute;
+    right:0px;
+    bottom:0px;
+    border-radius: 4px;
+
+  }
+  
+  
